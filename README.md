@@ -1,6 +1,6 @@
 # Landmark Classification & Tagging for Social Media
 
-This project is part of the Udacity Nanodegree program [**AWS Machine Learning Fundamentals](https://www.udacity.com/enrollment/nd189-aws-fundamentals)
+This project is part of the Udacity Nanodegree program [**AWS Machine Learning Fundamentals](https://www.udacity.com/enrollment/nd189-aws-fundamentals**)
 
 ## Project Overview
 
