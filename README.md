@@ -37,22 +37,27 @@ This notebook focuses on applying transfer learning techniques to improve the ac
 
 1. Download and install [**Miniconda**](https://docs.anaconda.com/miniconda/)
 2. Create a new conda environment with Python 3.7.6:
-`conda create --name landmark_class python=3.7.6 pytorch=1.11.0 torchvision torchaudio cudatoolkit -c pytorch`
+```conda create --name landmark_class python=3.7.6 pytorch=1.11.0 torchvision torchaudio cudatoolkit -c pytorch```
 3. Activate the environment:
-`conda activate landmark_class`
+   
+`conda activate landmark_class`  
+
 4. Install the required packages for the project:
    
-`pip install -r requirements.txt`
-6. Test that the GPU is working (execute this only if you have a NVIDIA GPU on your machine, which Nvidia drivers properly installed)  
+`pip install -r requirements.txt`  
+
+5. Test that the GPU is working (execute this only if you have a NVIDIA GPU on your machine, which Nvidia drivers properly installed)  
 
 `python -c "import torch;print(torch.cuda.is_available())`  
 
-This should return `True`. If it returns `False` your GPU cannot be recognized by pytorch. Test with `nvidia-smi` that your GPU is working. If it is not, check your NVIDIA drivers. 
-7. Install and open jupyter lab:
+This should return `True`. If it returns `False` your GPU cannot be recognized by pytorch. Test with `nvidia-smi` that your GPU is working. If it is not, check your NVIDIA drivers.  
+
+6. Install and open jupyter lab:
 ```
 pip install jupyterlab 
 jupyter lab
 ```
+
 7. Clone the repository:
    
 `git clone https://github.com/Menna-Elmeligy/udacity_Landmark_classification_and_tagging.git`
