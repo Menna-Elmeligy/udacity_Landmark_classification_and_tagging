@@ -52,12 +52,14 @@ This notebook focuses on applying transfer learning techniques to improve the ac
 
 This should return `True`. If it returns `False` your GPU cannot be recognized by pytorch. Test with `nvidia-smi` that your GPU is working. If it is not, check your NVIDIA drivers.  
 
-6. Install and open jupyter lab:
+
+6. Clone the repository:
+   
+```git clone https://github.com/Menna-Elmeligy/udacity_Landmark_classification_and_tagging.git```
+
+7. Install and open jupyter lab:
 ```
 pip install jupyterlab 
 jupyter lab
 ```
 
-7. Clone the repository:
-   
-`git clone https://github.com/Menna-Elmeligy/udacity_Landmark_classification_and_tagging.git`
